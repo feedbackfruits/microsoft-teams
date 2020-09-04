@@ -1,0 +1,56 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.6/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.6",
+    "version": "1.0.0",
+    "showLoadingIndicator": true,
+    "id": "e5349cd7-43a3-41c1-a9f9-bc53805033ef",
+    "packageName": "com.feedbackfruits.au.microsoft.teams",
+    "developer": {
+        "name": "FeedbackFruits",
+        "websiteUrl": "https://feedbackfruits.com",
+        "privacyUrl": "https://feedbackfruits.com/privacy",
+        "termsOfUseUrl": "https://feedbackfruits.com/privacy",
+        "mpnId": "6194909"
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "name": {
+        "short": "FeedbackFruits",
+        "full": "A uniform suite of pedagogical tools to enrich your LMS"
+    },
+    "description": {
+        "short": "Make every course engaging",
+        "full": "A uniform suite of pedagogical tools to enrich your LMS"
+    },
+    "accentColor": "#2E7D32",
+    "configurableTabs": [
+        {
+            "configurationUrl": "https://au.feedbackfruits.com/groups/new?embed=true&enrollability=open&identity_provider_id=azuread",
+            "scopes": [
+                "team",
+                "groupchat"
+            ]
+        }
+    ],
+    "staticTabs": [
+        {
+            "entityId": "feedbackfruits",
+            "name": "FeedbackFruits",
+            "contentUrl": "https://au.feedbackfruits.com/groups?embed=true&identity_provider_id=azuread",
+            "websiteUrl": "https://au.feedbackfruits.com/groups?identity_provider_id=azuread",
+            "scopes": [
+                "personal"
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "au.feedbackfruits.com",
+        "au-accounts.feedbackfruits.com"
+    ]
+}
