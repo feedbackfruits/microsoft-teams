@@ -27,7 +27,7 @@
     "accentColor": "#2E7D32",
     "configurableTabs": [
         {
-            "configurationUrl": "https://eu.feedbackfruits.com/groups/new?embed=true&enrollability=open",
+            "configurationUrl": "https://eu.feedbackfruits.com/courses/new?embed=true&enrollability=open",
             "scopes": [
                 "team",
                 "groupchat"
@@ -38,8 +38,8 @@
         {
             "entityId": "feedbackfruits",
             "name": "FeedbackFruits",
-            "contentUrl": "https://eu.feedbackfruits.com/groups",
-            "websiteUrl": "https://eu.feedbackfruits.com/groups",
+            "contentUrl": "https://eu.feedbackfruits.com/courses",
+            "websiteUrl": "https://eu.feedbackfruits.com/courses",
             "scopes": [
                 "personal"
             ]
