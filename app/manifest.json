@@ -1,7 +1,7 @@
 {
-    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.6/MicrosoftTeams.schema.json",
-    "manifestVersion": "1.6",
-    "version": "1.0.3",
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.12",
+    "version": "1.0.4",
     "showLoadingIndicator": true,
     "id": "e5349cd7-43a3-41c1-a9f9-bc53805033ef",
     "packageName": "com.feedbackfruits.app.microsoft.teams",
@@ -43,7 +43,7 @@
         "au-accounts.feedbackfruits.com"
     ],
     "webApplicationInfo": {
-        "id": "4a3bab2d-afa7-4761-8937-d25d8b2af3de",
-        "resource": "https://feedbackfruits.com"
+        "id": "906e199a-9016-4cdf-8b46-a89a74ed0f5c",
+        "resource": "https://app.feedbackfruits.com"
     }
 }

@@ -1,7 +1,7 @@
 {
-    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.6/MicrosoftTeams.schema.json",
-    "manifestVersion": "1.6",
-    "version": "1.0.3",
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.12/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.12",
+    "version": "1.0.4",
     "showLoadingIndicator": true,
     "id": "e5349cd7-43a3-41c1-a9f9-bc53805033ef",
     "packageName": "com.feedbackfruits.us.microsoft.teams",
@@ -25,6 +25,15 @@
         "full": "FeedbackFruits originated out of a desire to stimulate interaction between students and teachers. For a long time, lectures have been a one-way delivery system for information, offering little opportunity for student engagement. Overcoming this obstacle is central to our mission: helping teachers build engaging learning activities.\n\nWe have developed a suite of pedagogical tools that integrate into Microsoft Teams and learning management systems to provide teachers extensive capabilities in their course designs, and improve the quality of students' learning experience. In terms of user experience, all tools in our suite have a similar look and feel, which flattens the learning curve for teachers and students.\n\nThe available tools in the suite support learning activities related to pedagogical themes such as: peer assessment, interaction within study material, collaborative learning, team based learning, skill feedback and engaging online discussions.\n\nPeer Feedback tools structure and streamline the process of students reviewing skills or work from peers. The teacher specifies criteria by which students evaluate peers and set instructions deadlines. The entire process of peer allocation is automated. Learning activity example: Students peer assess each others’ draft group reports before the final hand-in or students give feedback on their peers' collaboration skills so teachers discover free riders in group projects.\n\nInteractive Study Material tools enhance the process of students consuming study content such as articles, videos or podcasts. The problem is that students are often only passively consuming content. These tools add interactivity and foster social learning to enhance the study experience. Learning activity example: Ask students to add comments in readings or videos prior to a lecture (flipping the classroom).\n\nOnline discussion tools have the purpose of encouraging critical and reflective thinking and generating dialogue with peers. This is done by providing explicit instructions and facilitating a step by step meaningful dialogue. Learning activity example: Organise an open-ended, formative or summative discussion at scale.\n\nInteractive classrooms tools are built to foster engagement in class. It allows you to add interactive questions to existing powerpoint slides. A low-barrier solution that avoids students to passively attend your lectures.\n\nLearning activity example: Students anonymously answer controversial questions in class."
     },
     "accentColor": "#2E7D32",
+    "activities": {
+        "activityTypes": [
+            {
+                "type": "notification",
+                "description": "FeedbackFruits Notification",
+                "templateText": "{notification}"
+            }
+        ]
+    },
     "configurableTabs": [
         {
             "configurationUrl": "https://us.feedbackfruits.com/courses/new?embed=true&enrollability=open",
@@ -48,5 +57,9 @@
     "validDomains": [
         "us.feedbackfruits.com",
         "us-accounts.feedbackfruits.com"
-    ]
+    ],
+    "webApplicationInfo": {
+        "id": "906e199a-9016-4cdf-8b46-a89a74ed0f5c",
+        "resource": "https://us.feedbackfruits.com"
+    }
 }
