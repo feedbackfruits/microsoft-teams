@@ -2,6 +2,12 @@
 
 ## Releasing
 
+### Development
+
+```
+zip -j -r FeedbackFruits\ Development.zip development/manifest.json *.png
+```
+
 ### Staging
 
 ```
