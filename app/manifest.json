@@ -27,10 +27,20 @@
     "accentColor": "#2E7D32",
     "configurableTabs": [
         {
-            "configurationUrl": "https://app.feedbackfruits.com/courses/new?embed=true&enrollability=open",
+            "configurationUrl": "https://app.feedbackfruits.com/teams/new",
             "scopes": [
                 "team",
                 "groupchat"
+            ]
+        }
+    ],
+    "staticTabs": [
+        {
+            "entityId": "feedbackfruits",
+            "name": "FeedbackFruits",
+            "contentUrl": "https://app.feedbackfruits.com/teams",
+            "scopes": [
+                "personal"
             ]
         }
     ],

@@ -36,7 +36,7 @@
     },
     "configurableTabs": [
         {
-            "configurationUrl": "https://us.feedbackfruits.com/courses/new?embed=true&enrollability=open",
+            "configurationUrl": "https://us.feedbackfruits.com/teams/new",
             "scopes": [
                 "team",
                 "groupchat"
@@ -47,8 +47,7 @@
         {
             "entityId": "feedbackfruits",
             "name": "FeedbackFruits",
-            "contentUrl": "https://us.feedbackfruits.com/courses",
-            "websiteUrl": "https://us.feedbackfruits.com/courses",
+            "contentUrl": "https://us.feedbackfruits.com/teams",
             "scopes": [
                 "personal"
             ]
