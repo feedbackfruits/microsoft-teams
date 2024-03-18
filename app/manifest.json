@@ -50,7 +50,9 @@
         "us.feedbackfruits.com",
         "us-accounts.feedbackfruits.com",
         "au.feedbackfruits.com",
-        "au-accounts.feedbackfruits.com"
+        "au-accounts.feedbackfruits.com",
+        "ca.feedbackfruits.com",
+        "ca-accounts.feedbackfruits.com"
     ],
     "webApplicationInfo": {
         "id": "906e199a-9016-4cdf-8b46-a89a74ed0f5c",
