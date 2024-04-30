@@ -53,6 +53,9 @@
             ]
         }
     ],
+    "devicePermissions": [
+      "media"
+    ],
     "validDomains": [
         "au.feedbackfruits.com",
         "au-accounts.feedbackfruits.com"
