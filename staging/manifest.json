@@ -53,6 +53,9 @@
             ]
         }
     ],
+    "devicePermissions": [
+      "media"
+    ],
     "validDomains": [
         "staging.feedbackfruits.com",
         "staging-accounts.feedbackfruits.com"

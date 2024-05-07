@@ -53,6 +53,9 @@
             ]
         }
     ],
+    "devicePermissions": [
+      "media"
+    ],
     "validDomains": [
         "us.feedbackfruits.com",
         "us-accounts.feedbackfruits.com"

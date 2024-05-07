@@ -53,6 +53,9 @@
             ]
         }
     ],
+    "devicePermissions": [
+      "media"
+    ],
     "validDomains": [
         "localhost:4200",
         "staging-accounts.feedbackfruits.com"
